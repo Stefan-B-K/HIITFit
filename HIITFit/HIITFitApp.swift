@@ -1,9 +1,3 @@
-//
-//  HIITFitApp.swift
-//  HIITFit
-//
-//  Created by Стефан Кожухаров on 20.12.21.
-//
 
 import SwiftUI
 
