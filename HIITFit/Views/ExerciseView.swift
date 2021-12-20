@@ -8,7 +8,24 @@ struct ExerciseView: View {
   let exerciseNames = ["Squat", "Step Up", "Burpee", "Sun Salute"]
   
   var body: some View {
-    Text(exerciseNames[index])
+    VStack {
+      VStack {
+        Text(exerciseNames[index])
+          .font(.largeTitle)
+        HStack {
+          ForEach(0..<4) { index in
+            Image(systemName: "\(index).circle")
+          }
+        }
+        .font(.title2)
+      }
+      Text("Video player")
+      Text("Timer")
+      Text("Start/Done button")
+      Text("Rating")
+      Text("History button")
+    }
+
   }
 }
 
