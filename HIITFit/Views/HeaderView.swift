@@ -11,7 +11,7 @@ struct HeaderView: View {
         .font(.largeTitle)
       HStack {
         ForEach(0..<4) { index in
-          Image(systemName: "\(index).circle")
+          Image(systemName: "\(index + 1).circle")
         }
       }
       .font(.title2)
