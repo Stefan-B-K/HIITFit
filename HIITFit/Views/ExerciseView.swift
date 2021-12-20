@@ -9,16 +9,7 @@ struct ExerciseView: View {
   
   var body: some View {
     VStack {
-      VStack {
-        Text(exerciseNames[index])
-          .font(.largeTitle)
-        HStack {
-          ForEach(0..<4) { index in
-            Image(systemName: "\(index).circle")
-          }
-        }
-        .font(.title2)
-      }
+      HeaderView(headerName: exerciseNames[index] )
       Text("Video player")
       Text("Timer")
       Text("Start/Done button")
@@ -36,3 +27,5 @@ struct ExerciseView_Previews: PreviewProvider {
     ExerciseView(index: 0)
   }
 }
+
+
