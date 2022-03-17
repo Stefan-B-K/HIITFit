@@ -3,13 +3,56 @@
 import SwiftUI
 
 struct WelcomeView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @State private var showHistory = false
+  @Binding var selectedTab: Int
+  
+  var getStartedButton: some View {
+    RaisedButton("Get Started") { selectedTab = 0 }
+    .padding()
+  }
+  
+  var historyButton: some View {
+    Button(
+      action: {
+        showHistory = true
+      }, label: {
+        Text("History")
+          .fontWeight(.bold)
+          .padding([.leading, .trailing], 5)
+      })
+      .padding(.bottom, 10)
+      .buttonStyle(EmbossedButtonStyle())
+  }
+  
+  
+  var body: some View {
+    GeometryReader { geometry in
+      VStack {
+        HeaderView(
+          selectedTab: $selectedTab,
+          titleText: "Welcome")
+        Spacer()
+        ContainerView {
+          VStack() {
+            WelcomeView.images
+            WelcomeView.welcomeText
+            getStartedButton
+            Spacer()
+            historyButton
+          }
+        }
+        .frame(height: geometry.size.height * 0.8)
+      }
+      .sheet(isPresented: $showHistory) {
+        HistoryView()
+      }
     }
+  }
+
 }
 
 struct WelcomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        WelcomeView()
-    }
+  static var previews: some View {
+    WelcomeView(selectedTab: .constant(9))
+  }
 }

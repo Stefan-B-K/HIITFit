@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9814C6182771B048009AC4E4 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814C6172771B048009AC4E4 /* HistoryView.swift */; };
+		9814C61A2771D0C6009AC4E4 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814C6192771D0C6009AC4E4 /* SuccessView.swift */; };
+		9814C61C2771F998009AC4E4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814C61B2771F998009AC4E4 /* Exercise.swift */; };
+		9814C61E27720222009AC4E4 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814C61D27720222009AC4E4 /* HistoryStore.swift */; };
+		9814C62127722677009AC4E4 /* createDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814C62027722677009AC4E4 /* createDevData.swift */; };
+		982576BE2775A1990028DB86 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982576BD2775A1990028DB86 /* TimerView.swift */; };
 		9832AEBD2770BC3100D55E5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832AEBC2770BC3100D55E5C /* HeaderView.swift */; };
 		9832AEC52770C88300D55E5C /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9832AEC12770C88300D55E5C /* squat.mp4 */; };
 		9832AEC62770C88300D55E5C /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9832AEC22770C88300D55E5C /* sun-salute.mp4 */; };
 		9832AEC72770C88300D55E5C /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9832AEC32770C88300D55E5C /* step-up.mp4 */; };
-		9832AEC82770C88300D55E5C /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9832AEC42770C88300D55E5C /* burpee.mp4 */; };
 		9832AECA2770D18400D55E5C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832AEC92770D18400D55E5C /* RatingView.swift */; };
+		986E4B842778DD550039FE7D /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E4B832778DD550039FE7D /* EmbossedButton.swift */; };
+		986E4B862778F9140039FE7D /* ContainerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E4B852778F9140039FE7D /* ContainerViews.swift */; };
+		986E4B882778FD550039FE7D /* WelcomeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E4B872778FD550039FE7D /* WelcomeImages.swift */; };
+		986E4B8A2779101D0039FE7D /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E4B892779101D0039FE7D /* GradientBackground.swift */; };
+		986E4B8C277AEF700039FE7D /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E4B8B277AEF700039FE7D /* HistoryListView.swift */; };
+		986E4B90277B09FD0039FE7D /* HistoryBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E4B8F277B09FD0039FE7D /* HistoryBarView.swift */; };
+		98DB74CD27744835004B5C86 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98DB74CF27744835004B5C86 /* burpee.mp4 */; };
+		98F516392778BB4A00450B3D /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F516382778BB4A00450B3D /* RaisedButton.swift */; };
 		98F8A5FB27709A0B002BEA7C /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8A5FA27709A0B002BEA7C /* HIITFitApp.swift */; };
 		98F8A5FD27709A0B002BEA7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8A5FC27709A0B002BEA7C /* ContentView.swift */; };
 		98F8A5FF27709A0B002BEA7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F8A5FE27709A0B002BEA7C /* Assets.xcassets */; };
@@ -24,12 +37,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9814C6172771B048009AC4E4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		9814C6192771D0C6009AC4E4 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		9814C61B2771F998009AC4E4 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		9814C61D27720222009AC4E4 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		9814C62027722677009AC4E4 /* createDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createDevData.swift; sourceTree = "<group>"; };
+		982576BD2775A1990028DB86 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		9832AEBC2770BC3100D55E5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		9832AEC12770C88300D55E5C /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
 		9832AEC22770C88300D55E5C /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 		9832AEC32770C88300D55E5C /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
-		9832AEC42770C88300D55E5C /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		9832AEC92770D18400D55E5C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		986E4B832778DD550039FE7D /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
+		986E4B852778F9140039FE7D /* ContainerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViews.swift; sourceTree = "<group>"; };
+		986E4B872778FD550039FE7D /* WelcomeImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeImages.swift; sourceTree = "<group>"; };
+		986E4B892779101D0039FE7D /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		986E4B8B277AEF700039FE7D /* HistoryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		986E4B8F277B09FD0039FE7D /* HistoryBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryBarView.swift; sourceTree = "<group>"; };
+		98DB74CE27744835004B5C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/burpee.mp4; sourceTree = "<group>"; };
+		98F516382778BB4A00450B3D /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
 		98F8A5F727709A0A002BEA7C /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F8A5FA27709A0B002BEA7C /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		98F8A5FC27709A0B002BEA7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,15 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9814C61F2772022B009AC4E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9814C61B2771F998009AC4E4 /* Exercise.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9832AEC02770C86A00D55E5C /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				9832AEC42770C88300D55E5C /* burpee.mp4 */,
+				98DB74CF27744835004B5C86 /* burpee.mp4 */,
 				9832AEC12770C88300D55E5C /* squat.mp4 */,
 				9832AEC32770C88300D55E5C /* step-up.mp4 */,
 				9832AEC22770C88300D55E5C /* sun-salute.mp4 */,
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		986E4BB1277B83AD0039FE7D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9814C61D27720222009AC4E4 /* HistoryStore.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		98F8A5EE27709A0A002BEA7C = {
@@ -83,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				98F8A5FA27709A0B002BEA7C /* HIITFitApp.swift */,
+				9814C61F2772022B009AC4E4 /* Model */,
+				986E4BB1277B83AD0039FE7D /* ViewModel */,
 				98F8A6122770A3C5002BEA7C /* Views */,
 				98F8A60827709E19002BEA7C /* DateExtension.swift */,
 				98F8A60A27709E2D002BEA7C /* ImageExtension.swift */,
@@ -97,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				98F8A60127709A0B002BEA7C /* Preview Assets.xcassets */,
+				9814C62027722677009AC4E4 /* createDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -107,8 +152,18 @@
 				98F8A5FC27709A0B002BEA7C /* ContentView.swift */,
 				98F8A60E2770A38D002BEA7C /* WelcomeView.swift */,
 				98F8A6102770A39F002BEA7C /* ExerciseView.swift */,
+				9814C6172771B048009AC4E4 /* HistoryView.swift */,
+				986E4B8B277AEF700039FE7D /* HistoryListView.swift */,
+				986E4B8F277B09FD0039FE7D /* HistoryBarView.swift */,
+				9814C6192771D0C6009AC4E4 /* SuccessView.swift */,
 				9832AEBC2770BC3100D55E5C /* HeaderView.swift */,
 				9832AEC92770D18400D55E5C /* RatingView.swift */,
+				982576BD2775A1990028DB86 /* TimerView.swift */,
+				98F516382778BB4A00450B3D /* RaisedButton.swift */,
+				986E4B832778DD550039FE7D /* EmbossedButton.swift */,
+				986E4B852778F9140039FE7D /* ContainerViews.swift */,
+				986E4B872778FD550039FE7D /* WelcomeImages.swift */,
+				986E4B892779101D0039FE7D /* GradientBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +210,7 @@
 			knownRegions = (
 				en,
 				Base,
+				bg,
 			);
 			mainGroup = 98F8A5EE27709A0A002BEA7C;
 			productRefGroup = 98F8A5F827709A0A002BEA7C /* Products */;
@@ -175,7 +231,7 @@
 				9832AEC72770C88300D55E5C /* step-up.mp4 in Resources */,
 				9832AEC52770C88300D55E5C /* squat.mp4 in Resources */,
 				9832AEC62770C88300D55E5C /* sun-salute.mp4 in Resources */,
-				9832AEC82770C88300D55E5C /* burpee.mp4 in Resources */,
+				98DB74CD27744835004B5C86 /* burpee.mp4 in Resources */,
 				98F8A5FF27709A0B002BEA7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,24 +243,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986E4B882778FD550039FE7D /* WelcomeImages.swift in Sources */,
+				982576BE2775A1990028DB86 /* TimerView.swift in Sources */,
 				98F8A6112770A39F002BEA7C /* ExerciseView.swift in Sources */,
 				98F8A60F2770A38D002BEA7C /* WelcomeView.swift in Sources */,
+				9814C61A2771D0C6009AC4E4 /* SuccessView.swift in Sources */,
+				986E4B8C277AEF700039FE7D /* HistoryListView.swift in Sources */,
 				98F8A5FD27709A0B002BEA7C /* ContentView.swift in Sources */,
 				9832AECA2770D18400D55E5C /* RatingView.swift in Sources */,
+				9814C62127722677009AC4E4 /* createDevData.swift in Sources */,
 				98F8A60927709E19002BEA7C /* DateExtension.swift in Sources */,
+				9814C61E27720222009AC4E4 /* HistoryStore.swift in Sources */,
+				986E4B862778F9140039FE7D /* ContainerViews.swift in Sources */,
+				9814C61C2771F998009AC4E4 /* Exercise.swift in Sources */,
 				98F8A5FB27709A0B002BEA7C /* HIITFitApp.swift in Sources */,
+				98F516392778BB4A00450B3D /* RaisedButton.swift in Sources */,
+				986E4B90277B09FD0039FE7D /* HistoryBarView.swift in Sources */,
 				98F8A60B27709E2D002BEA7C /* ImageExtension.swift in Sources */,
+				986E4B842778DD550039FE7D /* EmbossedButton.swift in Sources */,
+				9814C6182771B048009AC4E4 /* HistoryView.swift in Sources */,
+				986E4B8A2779101D0039FE7D /* GradientBackground.swift in Sources */,
 				9832AEBD2770BC3100D55E5C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		98DB74CF27744835004B5C86 /* burpee.mp4 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DB74CE27744835004B5C86 /* Base */,
+			);
+			name = burpee.mp4;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		98F8A60327709A0B002BEA7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -266,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
